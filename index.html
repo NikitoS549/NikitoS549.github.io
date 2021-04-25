@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Мой эксперимент с CSS</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="scriptmy.js"> </script>
+    </head>
+    <body>
+        <i><h1 align="center">Hello HTML | Lab 3!</h1></i>
+        <i><p align="center">Данный прекрасный сайт сделал студент группы АДБ-18-07 | Нехорошев Никита</p></i>
+    </body>
+    <style>
+        body {background-color: rgb(170, 245, 241);}
+    </style>
+    </html>
+
+<h2 align="center">Ввод данных | Общее задание </h2>
+
+<form name="form1">
+<center>
+    <h3> Введите коэффициент квадратного уравнения: </h3>
+    A = <input type="text" name="num1" size="4" placeholder="Input a">
+    B = <input type="text" name="num2" size="4" placeholder="Input b">
+    C = <input type="text" name="num3" size="4" placeholder="Input c">
+    <br> <br>
+    <input type="button" value="Cчитать!" onClick="kvadrt()" />
+    <br> <br>
+    Результат = <input type="text" name="x1" size="20">
+    <br> <br>
+    <input type="reset">
+</center>
+</form>
+
+<h2 align="center"> Выбор максимального значения | 1 Индивидуальное </h2>
+
+<form name="form2">
+<center>
+   <h3> Введите коэфициенты: </h3>
+    A = <input type="text" name="x1" size="4" placeholder="Input a">
+    B = <input type="text" name="x2" size="4" placeholder="Input b">
+    <br> <br>
+    <input type="button" value="Cравнить!" onClick="Srav()" />
+    <br> <br>
+    Результат = <input type="text" name="y2" size="20">
+    <br> <br>
+    <input type="reset">
+</center>
+</form>
+
+<h2 align="center"> Вывод имени админа | 2 Индивидуальное </h2>
+
+<form name="form3">
+<center>
+       <input type="button" value="Узнать имя Админа" onClick="Imya()" /> 
+</center>
+</form>
+
+<h2 align="center"> Ввод возраста | 3 Индивидуальное </h2>
+
+<form name="form4">
+    <center>
+    <h3>Введите ваш возраст:</h3>
+        <input type="text" name="x1" size="4" placeholder="Input age">
+    <br> <br>
+    <input type="button" value="Проверить" onClick="Vozrast()" />
+</center>
+</form>
+
+<h2 align="center"> Резюме | 4 Индивидуальное </h2>
+
+<form name="form10">
+    <center>
+        Имя:  <input type="text" name=x1 size="10" placeholder="Никита">
+            <input type="button" value="Изменить" onClick="NewName()">
+        <br><br>
+          </center>
+</form>
+
+<form name="form11">
+        <center>
+               Фамилия:  <input type="text" name=x2 size="10" placeholder="Нехорошев">
+                <input type="button" value="Изменить" onClick="NewSecName()">
+            <br><br>
+        </center>
+</form>
+
+<form name="form7">
+    <center>
+        Возраст: 20 лет   
+        <br><br>
+        Пол: Мужской
+        <br><br>
+        Телефон: 8-800-555-35-35
+        <br><br>
+        Фото: <img src="IMG_1629.JPG"  alt="Photo" width="240" height="400"> 
+        <br><br>
+        
+        </center>
+</form>
+
+<h2 align="center"> Заполните ваше резюме | 5 Индивидуальное </h2>
+
+<form name="form6">
+<center> 
+    <h3>Заполните анкету: </h3>
+    1. Нравится вам наш сайт?
+    <br>
+    Да - <input type="checkbox" id="one" onchange="Resum()">
+    <br>
+    Нет - <input type="checkbox" id="two" onchange="Resum()">
+    <br><br>
+    2. Как вас зовут? <input type="text" name="x3" size="10" required placeholder="Input your name">
+    <br> <br>
+    3. Сколько вам лет? <input type="text" name="x4" size="5" required placeholder="5 или 25">
+    <br> <br>
+    4. Какого вы пола? <input type="text" name="x5" size="5" required placeholder="M или Ж"> 
+    <br> <br>
+    5. Введите свою почту для связи: <input type="email" required placeholder="example@mail.ru">
+    <br> <br>
+    <input type="submit" value="Сохранить">
+    <input type="button" value="Отправить" onClick="End()">
+ 
+</center>
+</form>
+

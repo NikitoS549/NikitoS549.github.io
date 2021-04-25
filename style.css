@@ -1,0 +1,31 @@
+h1 {
+    color: blue;
+    background-color:yellow;
+    border: 1px solid black;
+    text-shadow: 1px 1px black;
+}
+
+p {
+    font-weight: 400;
+    color: red;
+    text-shadow: 1px 1px rgb(16, 12, 12);
+}
+
+h2 {
+    font-size: medium;
+    color:black;
+    background-color: rgb(5, 236, 5);
+    border: 1px solid black;
+}
+
+h3:hover
+{
+    Color:green;
+    text-shadow: 1px 1px rgb(21, 34, 111);
+    background-color: rgb(243, 200, 233);
+}
+
+h4:hover
+{
+    Color:rgb(255, 19, 227);
+}
