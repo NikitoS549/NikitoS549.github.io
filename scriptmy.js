@@ -80,4 +80,3 @@ function End()
     var x4 = (d.form6.x4.value)
     var x5 = (d.form6.x5.value)
 }    alert('Я вас запомнил!')
-}
